@@ -1,0 +1,26 @@
+h1{
+    font-size: 300px;
+}
+@media screen and (max-width:780px){
+    h1{
+        font-size: 30px;
+    }
+}
+
+div{
+    height: 200px;
+    width: 300px;
+    background-color: gray;
+    font-size: 100px;
+    color: black;
+}
+
+@media screen and (max-width:600px){
+    div{
+        height: 80px;
+        width: 100px;
+        background-color: red;
+        font-size: 40px;
+        color:pink;
+    }
+}
